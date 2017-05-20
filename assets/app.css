@@ -1,9 +1,16 @@
 body {
   background-color: #3F2F45;
-  background-image: url("/imgs/background.png");
   background-size: cover;
   color: white;
   text-align: center;
+}
+
+body.overview {
+  background-image: url("../imgs/background.png");
+}
+
+body.easy_challenge {
+  background-image: url("../imgs/background_vogel.png");
 }
 
 h1 {
@@ -15,25 +22,48 @@ h1 {
 h2 {
   font-size: 22px;
   font-weight: 700;
-  margin: 0 0;
 }
 
-p {
+.main h2 {
+  margin: 0 0;
+}
+.main .btn-lg {
+  height: 80px;
+}
+
+.easy h2 {
+  margin: 10px 0;
+}
+.easy p {
+  border-radius: 6px;
+  padding: 20px;
+  font-size: 22px;
+  background-color: hsla(360, 0%, 0%, 0.29);
+}
+
+.challenge-text p {
   font-size: 14px;
 }
 
-.btn-primary {
+.btn {
   text-transform: initial;
 }
+
+.btn-primary {
+  background-color: hsla(360, 100%, 100%, 0.39);
+}
+
+.btn-lg {
+  margin-bottom: 10px;
+}
+
 
 .main {
   margin: 30px;
 }
 
-.btn-lg {
-  margin-bottom: 10px;
-  height: 80px;
-  background-color: hsla(360, 100%, 100%, 0.39);
+.main.easy {
+  margin-top: 150px;
 }
 
 .challenge-icon {

@@ -21,6 +21,10 @@ body.power_challenge {
   background-image: url("../imgs/background_power.png");
 }
 
+body.success {
+  background-image: url("../imgs/background_success.jpg");
+}
+
 h1 {
   margin-top: 50px;
   font-weight: 700;
@@ -39,10 +43,10 @@ h2 {
   height: 80px;
 }
 
-.easy h2 {
+.easy h2, .success h2 {
   margin: 10px 0;
 }
-.easy p {
+.easy p, .success p {
   border-radius: 6px;
   padding: 20px;
   font-size: 22px;
@@ -72,6 +76,10 @@ h2 {
 
 .main.easy {
   margin-top: 150px;
+}
+
+.main.success {
+  margin-top: 100px;
 }
 
 .challenge-icon {

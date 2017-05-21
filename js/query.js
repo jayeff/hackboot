@@ -3,8 +3,8 @@ Keen.ready(function(){
         // Get GET id parameter
         var eventvar = getQueryVariable("event");
         var demo_data = {
-          easy: 325,
-          amazing: 476,
+          easy: 89,
+          amazing: 173,
           power: 143
         }
 

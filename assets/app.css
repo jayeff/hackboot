@@ -25,16 +25,47 @@ body.success {
   background-image: url("../imgs/background_success.jpg");
 }
 
+body.report {
+  background-color: #3F2F45;
+}
+
+.report-main {
+  float: left;
+  margin: 30px;
+  margin-top: 10px;
+}
+.report-battery {
+  margin: 30px;
+  margin-top: 10px;
+}
+.report-main img, .report-battery img {
+  width: 25px;
+  padding: 1px;
+  border-radius: 2px;
+}
+.report-main img, .report-oil img {
+  width: 30px;
+  padding: 1px;
+  border-radius: 2px;
+}
+
 h1 {
   margin-top: 50px;
   font-weight: 700;
   font-size: 36px;
 }
+.report h1 {
+  font-size: 22px;
+}
+.report-challenger {
+  font-size: 36px;
+}
 
-h2 {
+h2, h3 {
   font-size: 22px;
   font-weight: 700;
 }
+
 
 .main h2 {
   margin: 0 0;
